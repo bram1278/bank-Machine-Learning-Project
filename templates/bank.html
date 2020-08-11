@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Bank</title>
+</head>
+<body>
+    <h1>Klasifikasi Bank</h1>
+
+    <form method="POST" action="http://127.0.0.1:5000/klasifikasi">
+        age : <input type="number" name="age"/>
+        <br>
+        balance : <input type="number" name="balance"/>
+        <br>
+        active (0:no or 1:yes) : <input type="number" name="active"/>
+        <br>
+        france (0:no or 1:yes) : <input type="number" name="france"/>
+        <br>
+        germany (0:no or 1:yes) : <input type="number" name="germany"/>
+        <br>
+        spain (0:no or 1:yes) : <input type="number" name="spain"/>
+        <br>
+        female (0:no or 1:yes) : <input type="number" name="female"/>
+        <br>
+        male (0:no or 1:yes) : <input type="number" name="male"/>
+        <br>
+        <input type="submit" value="Classify"/>
+    </form>
+</body>
+</html>
